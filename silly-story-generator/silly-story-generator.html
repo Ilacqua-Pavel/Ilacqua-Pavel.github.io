@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="silly-story-generator.css" />
+</head>
+<body>
+    
+<div>
+  <label for="custom-name">Enter custom name:</label>
+  <input id="custom-name" type="text" placeholder="" />
+</div>
+<fieldset>
+  <legend>Choose locale:</legend>
+  <label for="us">US</label
+  ><input id="us" type="radio" name="uk-us" value="us" checked />
+  <label for="uk">UK</label
+  ><input id="uk" type="radio" name="uk-us" value="uk" />
+</fieldset>
+<div>
+  <button class="generate">Generate random story</button>
+</div>
+<div>
+    <button class="delete">Delete story</button>
+</div>
+<div>
+    <input type="color">
+</div>
+<div>
+  <label for="font-size">Font size:</label>
+  <input id="font-size" type="number" min="1" max="72" step="1" value="18" />
+  <span id="font-size-value">18px</span>
+</div>
+<div>
+  <button class="save">Salva file</button>
+</div>
+
+
+<div>
+  <label for="shift">Shift:</label>
+  <input id="shift" type="number" min="-25" max="25" value="3" />
+  <button class="encrypt">Encrypt story</button>
+</div>
+
+<div>
+  <input id="search-term" type="text" placeholder="" aria-label="Search term" />
+  <button class="search">Search</button>
+  <span id="search-count" aria-live="polite"></span>
+</div>
+
+<p class="story"></p>
+<script src="silly-story-generator.js"></script>
+</body>
+</html>
