@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../myproject"
+		},
+		{
+			"path": "../hello-world"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Ilacqua-Pavel.github.io"
+	}
+}
